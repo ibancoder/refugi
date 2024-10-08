@@ -1,9 +1,18 @@
 spring:
   application:
     name: refugi
+#
+#  datasource:
+#    url: "jdbc:mysql://178.156.55.174:3306/lobita"
+#    username: root
+#    password: $iese2024$
+#    driver-class-name: com.mysql.cj.jdbc.Driver
 
   datasource:
     url: "jdbc:mysql://localhost:3306/mydb"
     username: root
     password: 3st3lA44
     driver-class-name: com.mysql.cj.jdbc.Driver
+
+
+

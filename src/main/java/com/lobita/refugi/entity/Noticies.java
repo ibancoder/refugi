@@ -4,30 +4,30 @@ import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import java.util.Date;
+import java.sql.Date;
 
 @Entity
 @Table
-public class Noticias {
+public class Noticies {
     @Id
     private Long id;
-    @Column(name = "dataNoticia")
+    @Column
     private Date dataNoticia;
-    @Column (name = "titol")
+    @Column
     private String titol;
-    @Column (name = "descripcio")
+    @Column
     private String descripcio;
-    @Column (name = "foto")
+    @Column
     private String foto;
-    @Column (name = "activa")
+    @Column
     private Boolean activa;
-    @Column (name = "urlNoticia")
+    @Column
     private String urlNoticia;
-    @Column (name = "nomBoto")
+    @Column
     private String nomBoto;
 
     // default Constructor
-    public Noticias() {
+    public Noticies() {
 
     }
 
